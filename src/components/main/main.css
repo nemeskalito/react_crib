@@ -1,71 +1,78 @@
 h1 {
-	font-weight: 700;
-	padding-bottom: 10px;
-	font-size: 40px;
-	text-align: center;
+  font-weight: 700;
+  padding-bottom: 10px;
+  font-size: 40px;
+  text-align: center;
 }
-
+h2 {
+  font-weight: 700;
+  font-size: 20px;
+}
 h3 {
-	font-weight: 700;
-	padding-bottom: 10px;
-	font-size: 25px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  font-size: 25px;
 }
 
 h4 {
-	font-weight: 700;
-	font-size: 20px;
+  font-weight: 700;
+  font-size: 20px;
 }
 h5,
 strong {
-	font-weight: 700;
-	font-size: 18px;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 table {
-	border-collapse: collapse;
-	margin: 10px 0;
+  border-collapse: collapse;
+  margin: 10px 0;
 }
 
 th,
 td {
-	border: 1px solid black; /* Рамка для ячеек */
-	padding: 8px;
-	text-align: center;
+  border: 1px solid black; /* Рамка для ячеек */
+  padding: 8px;
+  text-align: center;
 }
 
-p {
-	font-size: 18px;
-	line-height: 25px;
-	text-indent: 2em;
+p,
+span {
+  font-size: 18px;
+  line-height: 25px;
+  text-indent: 2em;
 }
-
+.padding-left {
+  font-size: 15px;
+  padding-left: 100px;
+}
 li {
-	font-size: 18px;
+  font-size: 18px;
 }
 
 .main {
-	height: 100%;
-	color: black;
-	display: flex;
+  height: 100%;
+  color: black;
+  display: flex;
 }
 
 .main__container {
-	padding: 10px;
-	width: 80vw;
+  padding: 10px;
+  width: 80vw;
 }
 
 .main__title {
-	text-align: center;
-	border: 2px solid black;
-	border-radius: 10px;
-	font-size: 60px;
-	font-weight: 700;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 60px;
+  font-weight: 700;
 }
 
 .main__text {
-	margin-top: 10px;
-	padding: 20px;
-	border: 2px solid black;
-	border-radius: 10px;
-	height: 100%;
+  margin-top: 10px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 100%;
 }
