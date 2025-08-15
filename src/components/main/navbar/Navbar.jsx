@@ -16,6 +16,9 @@ export const Navbar = () => {
         <NavLink to="/props">
           <div className="navbar__item">Props</div>
         </NavLink>
+        <NavLink to="/state">
+          <div className="navbar__item">State</div>
+        </NavLink>
       </div>
     </div>
   );
