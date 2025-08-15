@@ -9,6 +9,7 @@ header {
 }
 .header__line {
   display: flex;
+  position: relative;
   justify-content: space-between;
 }
 
@@ -20,7 +21,9 @@ header {
   animation: rotate 3s linear infinite;
 }
 .header__theme {
-  align-content: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
 }
 .header__theme button {
   position: relative;

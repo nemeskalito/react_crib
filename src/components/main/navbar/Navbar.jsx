@@ -10,6 +10,12 @@ export const Navbar = () => {
         <NavLink to="/structured">
           <div className="navbar__item">Структура проекта. Modules VS FSD</div>
         </NavLink>
+        <NavLink to="/components">
+          <div className="navbar__item">Components</div>
+        </NavLink>
+        <NavLink to="/props">
+          <div className="navbar__item">Props</div>
+        </NavLink>
       </div>
     </div>
   );

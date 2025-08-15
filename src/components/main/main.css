@@ -18,6 +18,7 @@ h4 {
   font-weight: 700;
   font-size: 20px;
 }
+
 h5,
 strong {
   font-weight: 700;
@@ -50,10 +51,24 @@ li {
   font-size: 18px;
 }
 
+pre {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+.impoBlock {
+  background-color: #fce7c2;
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+/* =================================================================== */
 .main {
   height: 100%;
   color: black;
   display: flex;
+  background-color: #ffefd5;
 }
 
 .main__container {
