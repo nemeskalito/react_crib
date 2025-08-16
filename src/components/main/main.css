@@ -1,93 +1,95 @@
 h1 {
-	font-weight: 700;
-	padding-bottom: 10px;
-	font-size: 40px;
-	text-align: center;
+  font-weight: 700;
+  padding-bottom: 10px;
+  font-size: 40px;
+  text-align: center;
 }
 h2 {
-	font-weight: 700;
-	font-size: 20px;
+  font-weight: 700;
+  font-size: 20px;
 }
 h3 {
-	font-weight: 700;
-	padding-bottom: 10px;
-	font-size: 25px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  font-size: 25px;
 }
 
 h4 {
-	font-weight: 700;
-	font-size: 20px;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 h5,
 strong {
-	font-weight: 700;
-	font-size: 18px;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 table {
-	border-collapse: collapse;
-	margin: 10px 0;
+  border-collapse: collapse;
+  margin: 10px 0;
 }
 
 th,
 td {
-	border: 1px solid black; /* Рамка для ячеек */
-	padding: 8px;
-	text-align: center;
+  border: 1px solid black; /* Рамка для ячеек */
+  padding: 8px;
+  text-align: center;
 }
 
 p,
 span {
-	padding-top: 10px;
-	font-size: 18px;
-	line-height: 25px;
+  padding-top: 10px;
+  font-size: 18px;
+  line-height: 25px;
 }
 .padding-left {
-	font-size: 15px;
-	padding-left: 100px;
+  font-size: 15px;
+  padding-left: 100px;
 }
 li {
-	font-size: 18px;
+  font-size: 18px;
 }
 
 pre {
-	border: 1px solid black;
-	padding: 5px;
-	border-radius: 10px;
-	margin: 10px 0;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 10px 0;
 }
 .impoBlock {
-	background-color: #fce7c2;
-	padding: 5px;
-	border-radius: 10px;
-	margin-top: 10px;
+  background-color: #fce7c2;
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 10px;
 }
 /* =================================================================== */
 .main {
-	height: 100%;
-	color: black;
-	display: flex;
-	background-color: #ffefd5;
+  height: 100%;
+  max-width: 100%;
+  color: black;
+  display: flex;
+  background-color: #ffefd5;
+  overflow-wrap: break-word; /* Переносит длинные слова */
 }
 
 .main__container {
-	padding: 10px;
-	width: 80vw;
+  padding: 10px;
+  width: 80vw;
 }
 
 .main__title {
-	text-align: center;
-	border: 2px solid black;
-	border-radius: 10px;
-	font-size: 60px;
-	font-weight: 700;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 60px;
+  font-weight: 700;
 }
 
 .main__text {
-	margin-top: 10px;
-	padding: 20px;
-	border: 2px solid black;
-	border-radius: 10px;
-	height: 100%;
+  margin-top: 10px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 100%;
 }
