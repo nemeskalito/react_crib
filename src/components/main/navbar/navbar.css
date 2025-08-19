@@ -1,6 +1,7 @@
 .navbar {
 	background-color: #ffefd5;
-	width: 30vw;
+	width: 20vw;
+	flex-shrink: 0;
 }
 
 .navbar__items {
