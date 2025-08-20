@@ -1,15 +1,13 @@
-import './reset.css'
-import './App.css'
-import { Header } from './components/header/Header'
-import { Main } from './components/main/Main'
+import "./reset.css";
+import "./App.css";
+import { Main } from "./components/main/Main";
 
 function App() {
-	return (
-		<>
-			<Header />
-			<Main />
-		</>
-	)
+  return (
+    <>
+      <Main />
+    </>
+  );
 }
 
-export default App
+export default App;
