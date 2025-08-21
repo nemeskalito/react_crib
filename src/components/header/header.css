@@ -88,6 +88,7 @@ header {
 }
 .wheel-nautical-active {
   background: rgb(130, 222, 245);
+  border: 2px solid white;
 }
 .wheel-gold {
   cursor: pointer;
@@ -96,6 +97,7 @@ header {
 }
 .wheel-gold-active {
   background: rgb(245, 158, 108);
+  border: 2px solid white;
 }
 
 .wheel-gold:hover {
@@ -110,6 +112,7 @@ header {
 
 .wheel-synapse-active {
   background: rgb(22, 95, 250);
+  border: 2px solid white;
 }
 .wheel-synapse:hover {
   background: rgb(22, 95, 250);
@@ -122,6 +125,7 @@ header {
 }
 .wheel-obsidian-active {
   background: rgb(149, 36, 255);
+  border: 2px solid white;
 }
 .wheel-obsidian:hover {
   background: rgb(149, 36, 255);
